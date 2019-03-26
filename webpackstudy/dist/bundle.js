@@ -86,26 +86,18 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/a.js":
-/*!******************!*\
-  !*** ./src/a.js ***!
-  \******************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+ "./src/a.js":  // key
+ (function(module, exports) { // value 函数
 
 eval("module.exports = (\"hello webpack\");\n\n//# sourceURL=webpack:///./src/a.js?");
 
-/***/ }),
+ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+ "./src/index.js":
+ (function(module, exports, __webpack_require__) {
 
 eval("let str = __webpack_require__(/*! ./a.js */ \"./src/a.js\");\r\n\r\nconsole.log(str)\n\n//# sourceURL=webpack:///./src/index.js?");
 
-/***/ })
+ })
 
-/******/ });
+});
