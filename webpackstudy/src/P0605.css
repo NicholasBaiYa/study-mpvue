@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+html,body,.page{
+	height:100%!important;
+}
+/* 菜单栏 */
+#P0605 .menu-bar{
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+#P0605 .menu{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: center;
+	align-items: center;
+}
+#P0605 .menu img{
+	display: inline-block;
+}
+#P0605 .menu span{
+	font-family: PingFang-Regular;
+	text-align: center
+}
+/* 头部 */
+#P0605 .sb-head{
+	font-family: PingFang-Regular;
+	height: 3rem;
+	padding-top: 0.4rem;
+	/* background: url("../../../assets/img/home/sb_head_bg@2x.png") no-repeat center top; */
+	background-size: 100% 60%;
+}
+
+.white-bg{
+	background-color: #fff;
+	margin-bottom: 0.1rem;
+}
+/* 头部菜单 */
+#P0605 .head-menu-bar{
+}
+#P0605 .head-menu{
+	width: 25%
+}
+#P0605 .head-menu img{
+	height: 0.4rem;
+	width: 0.4rem;
+	margin-bottom: 2px;
+}
+#P0605 .head-menu span{
+	color: #ffffff;
+	font-size: 0.14rem;
+	ling-height: 0.14rem
+}
+/* 头部电子社保卡 */
+#P0605 .sb-head-body{
+	margin: 0.13rem 0.2rem 0.3rem 0.2rem;
+	background: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(145,145,145,0.2);
+	border-radius: 10px;
+	height: 1.8rem;
+}
+/* 未申领电子社保卡 */
+#P0605 .no-card{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: center;
+	align-items: center;
+	padding-right: 0.15rem;
+    padding-left: 0.15rem;
+}
+#P0605 .no-card-til{
+	font-size: 0.17rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.24rem;
+	margin-top: 0.36rem;
+	margin-bottom: 0.05rem; 
+}
+#P0605 .no-card-text{
+	font-size: 0.13rem;
+	line-height: 0.18rem;
+	color: #999999;
+	margin-bottom: 0.22rem;
+}
+#P0605 .no-card-but{
+	width: 100%;
+	padding-top: 0.08rem;
+    padding-bottom: 0.1rem;
+	border-radius: 8px;
+	background-image: linear-gradient(-45deg,#0275fa 0%,#0bbce6 100%);
+	font-size: 0.16rem;
+	line-height: 0.22rem;
+	color: #ffffff;
+	text-align: center;
+}
+/* 已有电子社保卡 */
+#P0605 .has-card{
+	/* background: url("../../../assets/img/home/sb_hasCardBk@2x.png") no-repeat center center; */
+	background-size: 100% 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	height: 1.8rem
+}
+#P0605 .has-card-photo{
+	margin-top: 0.22rem;
+    margin-right: 0.1rem;
+    height: 0.6rem;
+    width: 0.5rem;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+#P0605 .has-card-info{
+	margin-top: 3px;
+    margin-left: 0.15rem;
+    font-size: 0.14rem;
+    line-height: 0.22rem;
+    color: #444444;
+    letter-spacing: 0;
+}
+#P0605 .has-card-buttom{
+	display: -webkit-flex;
+	display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 0.11rem;
+    margin-left: 0.15rem;
+}
+#P0605 .has-card-buttom-add{
+	color: #666666;
+    font-size: 0.12rem;
+    line-height: 0.22rem;
+    letter-spacing: 0;
+}
+#P0605 .has-card-buttom-QR{
+	height: 0.3rem;
+    width: 0.87rem;
+    background-image: linear-gradient(-45deg,#0275fa 0%,#0bbce6 100%);
+    border-radius: 22.5px 0px 0px 22.5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+#P0605 .has-card-buttom-QR-code{
+	height: 0.19rem;
+    width: 0.19rem;
+    margin-left: 0.14rem;
+}
+#P0605 .has-card-buttom-QR span{
+	color: rgba(255,255,255,0.87);
+	font-size: 0.13rem;
+	line-height: 0.18rem;
+	margin-left: 0.09rem;
+	margin-right: 0.06rem;	
+}
+#P0605 .has-card-buttom-QR-right{
+	height: 0.09rem;
+    width: 0.06rem;
+}
+/* 业务菜单栏 */
+#P0605 .sb-BMenu{
+	margin-top: 0.11rem;
+	padding-bottom: 0.1rem;
+}
+#P0605 .business-menu-bar{
+	opacity : 0.4;
+}
+#P0605 .business-menu{
+	width: 20%;
+	margin-top: 0.21rem;
+}
+#P0605 .business-menu img{
+	height: 0.34rem;
+    width: 0.34rem;
+}
+#P0605 .business-menu span{
+	font-size: 0.12rem;
+	line-height: 0.17rem;
+	color: #222222
+}
+/* 菜单栏 */
+#P0605 .car-width{
+	width: 200%;
+	transition-duration: 1.5s;
+	transition-property: transform;
+	-webkit-transition-duration: 1.5s;
+	-webkit-transition-property: transform;
+}
+#P0605 .car-box{
+	width: 50%;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+#P0605 .l-r-7{
+	padding-left: 0.07rem;
+    padding-right: 0.07rem;
+}
+/* 轮播点 */
+#P0605 .car-point{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin-top: 0.16rem;
+}
+#P0605 .select{
+	background-color: #00acff;
+    border-radius: 2px;
+	width: 0.12rem;
+	height: 0.04rem;
+}
+#P0605 .mar-r-4{
+	margin-right: 0.04rem;
+}
+#P0605 .not-select{
+	background-color: #eeeeee;
+	border-radius: 50%;
+	width: 0.04rem;
+	height: 0.04rem;
+}
+/* 轮播图广告 */
+#P0605 .ad-height{
+	height: 0.9rem;
+}
+#P0605 .ad-height img{
+    width: 100%;
+    height: 0.9rem;
+}
+/* 资讯 */
+#P0605 .advisory{
+	margin-top: 0.1rem;
+}
+#P0605 .advisory-bar,#P0605 .advisory-bar-left,#P0605 .advisory-bar-right ,#P0605 .advisory-intr,#P0605 .advisory-intr-body{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background-color: #ffffff;
+}
+/* 资讯栏 */
+#P0605 .advisory-bar{
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0.1rem 0.15rem;
+    margin-bottom: 0.5px;
+}
+#P0605 .advisory-bar-left,#P0605 .advisory-bar-right {
+    -webkit-align-items: center;
+    align-items: center;
+}
+#P0605 .advisory-bar-left div{
+	background-color: #0ba1d4;
+	border-radius: 1.2px;
+	width: 2px;
+	height: 0.12rem;
+}
+#P0605 .advisory-bar-left span{
+	color: #222222;
+	font-size: 0.14rem;
+	line-height: 0.2rem;
+	padding-left: 5px;
+	
+}
+#P0605 .advisory-bar-right span{
+	color: #adadad;
+	font-size: 0.13rem;
+	line-height: 0.18rem;
+	margin-right: 3px;
+}
+#P0605 .advisory-bar-right img{
+	width: 0.08rem;
+	height: 0.12rem
+}
+/* 资讯列表 */
+#P0605 .advisory-intr{
+	padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+#P0605 .advisory-intr-body{
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	border-bottom: 0.5px solid #eeeeee;
+	margin-top: 0.15rem;
+	padding-bottom: 0.17rem;
+}
+#P0605 .advisory-intr-body-text{
+	width: 64%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-right: 0.21rem;
+}
+#P0605 .advisory-intr-body-text-title{
+	font-family: PingFangSC-Medium;
+	font-size: 0.16rem;
+	color: #444444;
+	line-height: 0.22rem;
+	margin-bottom: 0.09rem;
+}
+#P0605 .advisory-intr-body-text-content{
+	font-family: PingFangSC-Regular;
+	font-size: 0.12rem;
+	color: #666666;
+	line-height: 0.17rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+	margin-bottom: 0.16rem;
+}
+#P0605 .advisory-intr-body-text-feet{
+	-webkit-align-self: start;
+	align-self: start;
+}
+#P0605 .advisory-intr-body-text-feet span{
+	font-size: 0.12rem;
+	color: #adadad;
+	line-height: 0.17rem;
+	margin-right: 0.18rem;
+}
+#P0605 .advisory-intr-body-img{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 7px;
+}
+
+#P0605 .code-bg{
+	padding: 0.8rem 0.15rem 0.35rem 0.15rem;
+	/* background: url("../../../assets/img/home/code_bg@2x.png") no-repeat center top; */
+	background-size: 100% 100%;
+	font-family:PingFangSC-Regular;
+	height: 100%;
+}
+#P0605 .code-content{
+	padding-bottom: 0.35rem;
+	background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.30);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.30);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: nowrap column;
+    flex-flow: nowrap column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+#P0605 .code-head{
+	background-color: rgba(149,221,255,0.3);
+    display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-align-self: stretch;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+#P0605 .code-head img{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin: 0.12rem 0.1rem 0.13rem 0.1rem;
+}
+#P0605 .code-head span{
+	font-size: 0.16rem;
+    color: #222222;
+    line-height: 0.22rem;
+    letter-spacing: -0.39px;
+}
+#P0605 .code-bar{
+	padding-top: 0.3rem;
+	margin-bottom: 0.15rem;
+	display: -webkit-flex;
+    -webkit-flex-flow: column nowrap;
+    display: flex;
+    flex-flow: column nowrap;
+}
+#P0605 .code-bar-code{
+	width: 3.05rem;
+	height: 0.9rem;
+}
+#P0605 .code-bar-text{
+	display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-flow: row nowrap;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    color: #adadad;
+    letter-spacing: -0.34px;
+}
+#P0605 .code-feet{
+	margin-top: 0.18rem;
+	display: -webkit-flex;
+    -webkit-flex-flow: row nowrap;
+    -webkit-align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+#P0605 .code-feet img{
+	width: 0.16rem;
+    height: 0.14rem;
+}
+#P0605 .code-feet span{
+	color: #adadad;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    letter-spacing: -0.34px;
+    margin-left: 3px;
+}
+#P0605 .barCode-bg{
+	width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+#P0605 .barCode-content{
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
